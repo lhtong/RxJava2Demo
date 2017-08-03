@@ -24,4 +24,11 @@
         android:onClick="observableClickConcatMap"
         android:text="concatMap操作符" />
 
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="observableClickZip"
+        android:text="zip操作符" />
+
 </LinearLayout>
