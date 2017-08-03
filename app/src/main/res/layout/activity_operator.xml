@@ -4,20 +4,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="cn.usm.rxjava2demo.MainActivity">
+    tools:context="cn.usm.rxjava2demo.OperatorActivity">
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="创建Observable"
-        android:onClick="createObservable"
-        />
+        android:onClick="observableClickMap"
+        android:text="Map操作符" />
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Observable操作符"
-        android:onClick="operatorObservable"
-        />
+        android:onClick="observableClickFlatMap"
+        android:text="flatMap操作符" />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="observableClickConcatMap"
+        android:text="concatMap操作符" />
 
 </LinearLayout>

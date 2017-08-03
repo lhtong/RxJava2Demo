@@ -4,20 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="cn.usm.rxjava2demo.MainActivity">
+    tools:context="cn.usm.rxjava2demo.ObservableCreateActivity">
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="创建Observable"
-        android:onClick="createObservable"
-        />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Observable操作符"
-        android:onClick="operatorObservable"
-        />
+        android:onClick="observableClick"
+        android:text="创建Observable" />
 
 
 </LinearLayout>
