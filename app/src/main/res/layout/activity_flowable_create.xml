@@ -4,26 +4,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="cn.usm.rxjava2demo.MainActivity">
+    tools:context="cn.usm.rxjava2demo.FlowableCreateActivity">
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="创建Observable"
-        android:onClick="createObservable"
-        />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Observable操作符"
-        android:onClick="operatorObservable"
-        />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="创建Flowable"
-        android:onClick="createFlowable"
+        android:onClick="flawableClick"
         />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="flowableForRequest"
+        android:onClick="clickForRequest"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="flowableRequest"
+        android:onClick="clickRequest"
+        />
 
 </LinearLayout>

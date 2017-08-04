@@ -27,4 +27,9 @@ public class MainActivity extends AppCompatActivity {
         mContext.startActivity(intent);
     }
 
+    public void createFlowable(View view){
+        Intent intent = new Intent(mContext, FlowableCreateActivity.class);
+        mContext.startActivity(intent);
+    }
+
 }

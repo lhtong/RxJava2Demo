@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ObservableCreateActivity" />
-        <activity android:name=".OperatorActivity"></activity>
+        <activity android:name=".OperatorActivity" />
+        <activity android:name=".FlowableCreateActivity"></activity>
     </application>
 
 </manifest>
