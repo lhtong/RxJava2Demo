@@ -12,5 +12,17 @@
         android:onClick="observableClick"
         android:text="创建Observable" />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="single"
+        android:text="single创建" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="defer"
+        android:text="defer创建"
+        />
 
 </LinearLayout>
